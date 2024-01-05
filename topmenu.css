@@ -1,0 +1,30 @@
+body {font-family: "Lato", sans-serif;}
+
+.tablink {
+  background-color: #ff4da6;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #b3c6ff;
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 10px;
+  text-align: center;
+}
+
+#London {background-color:PINK;}
+#Paris {background-color:#ffff33;}
+#Tokyo {background-color:SKYblue;}
+#Oslo {background-color:orange;}
